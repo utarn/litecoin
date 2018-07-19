@@ -1,41 +1,41 @@
-Litecoin Core
+UtharnCoin Core
 =============
 
 Setup
 ---------------------
-Litecoin Core is the original Litecoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Litecoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+UtharnCoin Core is the original UtharnCoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of UtharnCoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Litecoin Core, visit [litecoin.org](https://litecoin.org).
+To download UtharnCoin Core, visit [utharncoin.org](https://utharncoin.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Litecoin on your native platform.
+The following are some helpful notes on how to run UtharnCoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/litecoin-qt` (GUI) or
-- `bin/litecoind` (headless)
+- `bin/utharncoin-qt` (GUI) or
+- `bin/utharncoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run litecoin-qt.exe.
+Unpack the files into a directory, and then run utharncoin-qt.exe.
 
 ### OS X
 
-Drag Litecoin-Core to your applications folder, and then run Litecoin-Core.
+Drag UtharnCoin-Core to your applications folder, and then run UtharnCoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [Litecoin Wiki](https://litecoin.info/)
+* See the documentation at the [UtharnCoin Wiki](https://utharncoin.info/)
 for help and more information.
-* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
-* Ask for help on the [LitecoinTalk](https://litecointalk.io/) forums.
+* Ask for help on [#utharncoin](http://webchat.freenode.net?channels=utharncoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=utharncoin).
+* Ask for help on the [UtharnCoinTalk](https://utharncointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Litecoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build UtharnCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [OS X Build Notes](build-osx.md)
@@ -46,7 +46,7 @@ The following are developer notes on how to build Litecoin on your native platfo
 
 Development
 ---------------------
-The Litecoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The UtharnCoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -61,8 +61,8 @@ The Litecoin repo's [root README](/README.md) contains relevant information on t
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [LitecoinTalk](https://litecointalk.io/) forums.
-* Discuss general Litecoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev).
+* Discuss on the [UtharnCoinTalk](https://utharncointalk.io/) forums.
+* Discuss general UtharnCoin development on #utharncoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=utharncoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
