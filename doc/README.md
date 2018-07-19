@@ -1,41 +1,41 @@
- Core
+Litecoin Core
 =============
 
 Setup
 ---------------------
- Core is the original  client and it builds the backbone of the network. It downloads and, by default, stores the entire history of  transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Litecoin Core is the original Litecoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Litecoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download  Core, visit [.org](https://.org).
+To download Litecoin Core, visit [litecoin.org](https://litecoin.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run  on your native platform.
+The following are some helpful notes on how to run Litecoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/-qt` (GUI) or
-- `bin/d` (headless)
+- `bin/litecoin-qt` (GUI) or
+- `bin/litecoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run -qt.exe.
+Unpack the files into a directory, and then run litecoin-qt.exe.
 
 ### OS X
 
-Drag -Core to your applications folder, and then run -Core.
+Drag Litecoin-Core to your applications folder, and then run Litecoin-Core.
 
 ### Need Help?
 
-* See the documentation at the [ Wiki](https://.info/)
+* See the documentation at the [Litecoin Wiki](https://litecoin.info/)
 for help and more information.
-* Ask for help on [#](http://webchat.freenode.net?channels=) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=).
-* Ask for help on the [Talk](https://talk.io/) forums.
+* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
+* Ask for help on the [LitecoinTalk](https://litecointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build  on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Litecoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [OS X Build Notes](build-osx.md)
@@ -46,7 +46,7 @@ The following are developer notes on how to build  on your native platform. They
 
 Development
 ---------------------
-The  repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Litecoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -61,8 +61,8 @@ The  repo's [root README](/README.md) contains relevant information on the devel
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [Talk](https://talk.io/) forums.
-* Discuss general  development on #-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=-dev).
+* Discuss on the [LitecoinTalk](https://litecointalk.io/) forums.
+* Discuss general Litecoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
