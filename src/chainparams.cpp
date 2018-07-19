@@ -48,8 +48,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56";
-    const CScript genesisOutputScript = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
+    const char* pszTimestamp = "My love. We will have our marriage event on 23 September 2018.";
+    const CScript genesisOutputScript = CScript() << ParseHex("0422b10732f96efdd1de39c8cc2d4ad234799075729bd890fec017400d603369df300aa234ff14ce863d804ed6465d74c515b9ab8a453c06252cfce89f0c1f037b") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -119,10 +119,10 @@ public:
         nDefaultPort = 2309;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1531660480, 148776, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1531957705, 320413, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x89a1d912a1287b3322eea2de3b5930580cbceaf905952ca1acc28f54df70bdb8"));
-        assert(genesis.hashMerkleRoot == uint256S("0x63c3bb938714aee5388d9c3933ad6c452e2b4914b585a228ee8bd9cbf70f33e5"));
+        assert(consensus.hashGenesisBlock == uint256S("0x66782962d1e9e96c2cd5bd2937acce1462a6a5d175b091fe06b91067535c085b"));
+        assert(genesis.hashMerkleRoot == uint256S("0xf6d618c707a1bc43fbb09596d99a6de5e3b099e40b31c89985828d1116393c5a"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.emplace_back("utharncoin.zarimpun.com");
